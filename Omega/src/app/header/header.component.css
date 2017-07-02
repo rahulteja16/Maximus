@@ -1,0 +1,75 @@
+nav {
+    background-color: white; 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav figure {
+    box-shadow: 0px 6px 6px #d9d9d9;
+}
+nav img{
+    width: 160px;
+}
+.primary-nav {
+    float: right;
+}
+.primary-nav > li {
+    float: left;
+}
+.primary-nav > li > a {
+    float: left;
+    padding: 25px 0;
+    width: 150px;
+    border-left: 1px solid #d9d9d9;
+}
+.primary-nav > li:first-child > a {
+    border-left: none;
+}
+nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover,
+nav li a:focus,
+nav li a:active {
+    background-color:black; 
+    color: #d9d9d9;
+}
+
+/*Search Bar */
+.search-bar{
+    width: 40%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+    font-size: 16px;
+    top: 16px;
+    position: absolute
+}
+
+/* Sub Menu */
+.has-submenu ul {
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    width: 150px;
+    border-radius: 0 0 15px 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: none;
+}
+.has-submenu:hover ul {
+    display: block;
+}
+.has-submenu a {
+    display: block;
+    padding: 20px;
+}

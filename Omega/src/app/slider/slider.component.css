@@ -1,0 +1,29 @@
+
+.slider-wrapper{
+    height: 240px;
+    overflow: hidden;
+    width: 100%;
+}
+.slider-wrapper .slider{
+    position: relative;
+    transition: width 2s;
+}
+.main-image img {
+    height: 240px;
+    width: 100%;
+}
+/* *********************
+   *****  Arrows  ******
+   *********************
+*/
+.slider-wrapper .slider .left-arrow {
+    float: left;
+    position: absolute;
+    top: 36%;
+}
+.slider-wrapper .slider .right-arrow {
+    float: right;
+    top: 36%;
+    right: 0;
+    position: absolute;
+}

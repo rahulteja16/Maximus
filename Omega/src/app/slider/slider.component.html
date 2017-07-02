@@ -1,0 +1,17 @@
+<section>
+    <div class="slider-wrapper">
+        <div class="slider" *ngFor =" let slider of sliderData">
+            <a class="main-image" href="{{slider.redirect}}">
+                <img src="{{slider.url}}" alt="{{slider.desc}}">
+            </a>
+            <a (click)="nextLeft()" class="left-arrow">
+                <img src = "../assets/left-arrow.png" alt="Slide Left">
+            </a>
+            <a (click)="nextRight()" class="right-arrow">
+                <img src = "../assets/right-arrow.png" alt="Slide Right">
+            </a>
+        </div>
+    </div>
+<!--<i class="fa fa-chevron-right" aria-hidden="true"></i>
+<i class="fa fa-chevron-left" aria-hidden="true"></i>-->
+</section>
